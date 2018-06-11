@@ -44,9 +44,11 @@ See what's happen on a browser.
 
 # Webpack
 
+`npm install webpack --save-dev`
+
 `npm install webpack-cli --save-dev`
 
-`$ ./node_modules/.bin/webpack-cli node.index.js -o bundle.js`
+`$ ./node_modules/.bin/webpack-cli node.index.js -o bundle.js -d`
 
 Change code in index.html 
 
