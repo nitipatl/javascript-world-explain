@@ -25,3 +25,20 @@ So for the longest time, organizing JavaScript code in multiple files required y
 `var moment = require('moment');`
 
 `node node.index.js`
+
+Change code in index.html  
+
+`<script src="index.js"></script>`
+
+To
+
+`<script src="node.index.js"></script>`
+
+See what's happen on a browser.
+
+# History
+
+- 2011, [Browserify](http://browserify.org/) - node.js usage style on frontend, can use npm too.
+
+- 2015, [webpack](https://webpack.js.org/)
+
