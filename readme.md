@@ -2,4 +2,4 @@
 
 Move configuration to webpack.config.js
 
-`webpack-cli`
+`./node_modules/.bin/webpack-cli`
