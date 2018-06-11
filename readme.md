@@ -42,3 +42,16 @@ See what's happen on a browser.
 
 - 2015, [webpack](https://webpack.js.org/)
 
+# Webpack
+
+`npm install webpack --save-dev`
+
+`$ ./node_modules/.bin/webpack node.index.js bundle.js`
+
+Change code in index.html 
+
+`<script src="node.index.js"></script>`  
+
+To
+
+`<script src="bundle.js"></script>`  
