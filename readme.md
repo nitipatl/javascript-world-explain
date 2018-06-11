@@ -1,28 +1,12 @@
-# JavaScript package manager
+# JavaScript module bundler
 
-![](https://en.opensuse.org/images/c/c3/Packagemanagement.png)
+Most programming languages provide a way to import code from one file into another.
 
-- Late 2010, several competing JavaScript package managers emerged to help automate the process of downloading and upgrading libraries from a central repository
+Java
 
-- 2013, [Bower](https://bower.io/)
+![](https://3.bp.blogspot.com/-mzibMIk3d_c/VAVdswFbJmI/AAAAAAAAdbA/tESeKo7hTlo/s1600/6.jpg)
 
-- 2015, [npm](http://npmjs.com/) is popular, was originally a package manager made specifically for node.js, (run on the server, not the frontend).
+JavaScript wasn’t originally designed with this feature, because JavaScript was designed to only run in the browser, with no access to the file system of the client’s computer (for security reasons). 
 
-- Late 2016, [yarn](https://yarnpkg.com/en/) from Facebook engineer.
+So for the longest time, organizing JavaScript code in multiple files required you to load each file with variables shared globally. 
 
-## Yarn VS npm
-
-- package-lock.json is automatically generated for any operations where npm modifies either the node_modules tree, or package.json (npm 5+ too).
-
-
-## npm
-
-`npm init`
-
-package.json created from that step.
-
-`npm install moment --save`
-
-node_modules created, package.json updated.
-
-![](https://pics.me.me/sun-neutron-star-black-hole-node-modules-yep-19541514.png)
